@@ -1,6 +1,6 @@
 # Vue.js and Node.js Web Application with MySQL Database
 ## Project Overview
-This project is a complete web app with a frontend, backend, and database. It uses the Vue.js framework for the frontend, the Express.js framework for the backend on a Node.js app, and a MySQL database. If you want to set up this project, start here: https://github.com/mohammadrony/emarket#project-setup.
+This project is a complete web app with a frontend, backend, and database. It uses the Vue.js framework for the frontend, the Express.js framework for the backend on a Node.js app, and a MySQL database. If you want to set up this project
 
 ### Project UI Overview
 #### For Users without Logging In
