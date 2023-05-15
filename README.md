@@ -46,7 +46,7 @@ This project uses many good features of Vue.js(version 2). The web app features 
 ### Cloning the repository
 To clone this repository, use the following command:
 ```
-git clone https://github.com/mohammadrony/emarket.git
+git clone https://github.com/Ozleblebici/emarket.git
 ```
 ### Installing server dependencies
 To install server dependencies, navigate to the `server` directory using the following command:
