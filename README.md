@@ -45,7 +45,7 @@ This project uses many good features of Vue.js(version 2). The web app features 
 ## Project Setup
 
 
-## PART-1 (Just 1 Time Setup for Project and DB. After 2. time jump to the PART-2)
+## PART-1 (Just 1 Time Setup for Project and DB. After 2. time jump to the part-2)
 ### Cloning the repository
 To clone this repository, use the following command:
 ```
