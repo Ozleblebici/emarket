@@ -80,7 +80,7 @@ After creating the database, you can exit the MySQL shell by typing:
 exit
 ```
 ### Setting Up Environment Variables
-#### Stripe Payment Integration
+#### Stripe Payment Integration (SKIP IT FOR BASIC E2E local usage!)
 To set up payment integration with Stripe, you need to follow these steps:
 
 1. Rename the `.env2` file in the `server` directory to `.env`.
@@ -88,7 +88,7 @@ To set up payment integration with Stripe, you need to follow these steps:
 3. Find your Stripe secret key for the `server/.env` file on your [Stripe account dashboard](https://dashboard.stripe.com/test/apikeys).
 4. Update the Stripe publishable key in `shop/src/components/Checkout/BuyItem.vue` with the publishable key from your Stripe account.
 
-#### Email Automation Integration
+#### Email Automation Integration (SKIP IT FOR BASIC E2E local usage!)
 To send emails from a Google account using a program, you need to follow these steps:
 
 1. Enable [2-step verification](https://myaccount.google.com/signinoptions/two-step-verification) for your account.
@@ -109,7 +109,7 @@ EMARKET_EMAIL=<your_email>
 EMARKET_PASSWORD=<your_app_password>
 STRIPE_SECRET_KEY=<your_stripe_secret_key>
 ```
-### BootstrapVue Package Recommendation
+### BootstrapVue Package Recommendation (SKIP IT FOR BASIC E2E local usage!)
 To ensure that BootstrapVue runs smoothly and without any component issues, it is recommended to use the `vue@2.6.12` and `bootstrap@4.6.1` versions of the packages mentioned by [BootstrapVue](https://bootstrap-vue.org/docs).
 
 ### Check and Match Database Configuration for User, Password, and Database Information
