@@ -43,6 +43,9 @@ This project uses many good features of Vue.js(version 2). The web app features 
 - [YouTube - Academind - Uploading an Image](https://www.youtube.com/watch?v=srPXMt1Q0nY)
 - [YouTube - Esterling Accime - Send Email with Node.js](https://www.youtube.com/watch?v=Va9UKGs1bwI)
 ## Project Setup
+
+
+## PART-1 (Just 1 Time Setup for Project and DB. After 2. time jump to the PART-2)
 ### Cloning the repository
 To clone this repository, use the following command:
 ```
@@ -111,6 +114,10 @@ STRIPE_SECRET_KEY=<your_stripe_secret_key>
 ```
 ### BootstrapVue Package Recommendation (SKIP IT FOR BASIC E2E local usage!)
 To ensure that BootstrapVue runs smoothly and without any component issues, it is recommended to use the `vue@2.6.12` and `bootstrap@4.6.1` versions of the packages mentioned by [BootstrapVue](https://bootstrap-vue.org/docs).
+
+---
+
+## PART -2 (RUN Backand and Frontend of app!!)
 
 ### Check and Match Database Configuration for User, Password, and Database Information
 Please make sure to check and match the database configuration for user, password, and database information. You can find this configuration file at `server/src/config/config.js`.
