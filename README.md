@@ -117,7 +117,7 @@ To ensure that BootstrapVue runs smoothly and without any component issues, it i
 
 ---
 
-## PART -2 (RUN Backand and Frontend of app!!)
+## PART -2 (RUN Backend and Frontend of app!!)
 
 ### Check and Match Database Configuration for User, Password, and Database Information
 Please make sure to check and match the database configuration for user, password, and database information. You can find this configuration file at `server/src/config/config.js`.
