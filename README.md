@@ -124,7 +124,7 @@ To ensure that BootstrapVue runs smoothly and without any component issues, it i
 ### Check and Match Database Configuration for User, Password, and Database Information
 Please make sure to check and match the database configuration for user, password, and database information. You can find this configuration file at `server/src/config/config.js`.
 
-### Feed Some Data to the Database for the Website
+### Feed Some Data to the Database for the Website (!! IF you don't want to lose your previous data, do not run this script again!!) 
 To add some initial data to the database for the website, run the following command: 
 ```
 cd server 
