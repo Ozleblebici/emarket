@@ -54,12 +54,14 @@ git clone https://github.com/Ozleblebici/emarket.git
 ### Installing server dependencies
 To install server dependencies, navigate to the `server` directory using the following command:
 ```
-cd server && npm install
+cd server
+npm install
 ```
 ### Installing shop dependencies
 To install shop dependencies, navigate to the `shop` directory using the following command:
 ```
-cd ../shop && npm install
+cd ../shop
+npm install
 ```
 ### Configuring MySQL Server
 To configure MySQL server, use the following command:
@@ -125,19 +127,22 @@ Please make sure to check and match the database configuration for user, passwor
 ### Feed Some Data to the Database for the Website
 To add some initial data to the database for the website, run the following command: 
 ```
-cd server && npm run seed
+cd server 
+npm run seed
 ```
 
 ### Starting the Backend Server First
 Start the backend server first with the following command: 
 ```
-cd server && npm start
+cd server 
+npm start
 ```
 
 ### Starting the Vue Application in Another Terminal
 To start the Vue application in another terminal window, run the following command: 
 ```
-cd shop && npm run serve
+cd shop
+npm run serve
 ```
 
 ### Verify Your Application is Running
