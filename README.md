@@ -64,21 +64,25 @@ cd ../shop
 npm install
 ```
 ### Configuring MySQL Server
-Step 1- If you have MySQL Server and got your password, go down:  (if not GO TO STEP 2)
+**Step 1-** If you have MySQL Server and got your password, go down:  (if not GO TO STEP 2)
 
 Create a database called `mydb`in local server with givin script or do it with MySql menu options and SKIP STEP 2
 ```
 CREATE DATABASE mydb;
 ```
 
-Manual way (via MySql Workbench app)
-a) Connect to localhost
-b) In the MySQL Workbench window that opens, click the Create a new schema in the connected server button on the main toolbar. Then enter the schema name, change the character set and collation if necessary, and click Apply.
-c) In the Apply SQL Script to Database window that opens, click Apply. Then click Finish.
-d) Check that the database has appeared in the Navigator. 
-THEN DO NOT TOUCH IT. DO NOT CREATE ANYTHING IN DB MANUALLY , SKIP STEP 2
+Manual way (via MySql Workbench app) :
 
-Step 2- To configure MySQL server, use the following command:
+	 1. Connect to localhost 
+	 2. In the MySQL Workbench window that opens, click the Create a new schema in the connected server button on the main toolbar. Then enter the schema name, change the character set and collation if necessary, and click Apply.  
+	 3. In the Apply SQL Script to Database window that opens, click Apply. Then click Finish.  
+	 4. Check that the database has appeared in the Navigator.
+ 
+
+*THEN DO NOT TOUCH IT. DO NOT CREATE ANYTHING IN DB MANUALLY , SKIP STEP 2*
+
+
+**Step 2-** To configure MySQL server, use the following command:
 ```
 sudo apt-get install mysql-server
 ```
