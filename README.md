@@ -64,7 +64,8 @@ cd ../shop
 npm install
 ```
 ### Configuring MySQL Server
-Step 1- If you have MySQL Server and got your password, if not GO TO STEP 2:
+Step 1- If you have MySQL Server and got your password, go down:  (if not GO TO STEP 2)
+
 Create a database called `mydb`in local server with givin script or do it with MySql menu options and SKIP STEP 2
 ```
 CREATE DATABASE mydb;
