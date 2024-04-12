@@ -51,7 +51,10 @@ To clone this repository, use the following command:
 ```
 git clone https://github.com/Ozleblebici/emarket.git
 ```
-### Installing server dependencies
+### Installing server dependencies 
+!! If you get an error, install nodejs and npm : use these specific versions!
+![image](https://github.com/Ozleblebici/emarket/assets/57970351/8395ba67-90f5-4a4a-925b-fe33f1324717)
+
 To install server dependencies, navigate to the `server` directory using the following command:
 ```
 cd server
